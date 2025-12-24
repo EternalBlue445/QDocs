@@ -9,3 +9,4 @@ pillow
 python-multipart
 numpy
 google-generativeai
+gunicorn
