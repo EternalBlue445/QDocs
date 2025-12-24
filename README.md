@@ -4,7 +4,9 @@ A simple Retrieval-Augmented Generation (RAG) API for asking questions about upl
 
 ## ✨ Features
 - Upload multiple files (PDF, DOCX, TXT, JPG , PNG, CSV, DB)
+- Contexts are generated with overlap
 - Ask questions
+- Relevant context and question will be sent to the LLM(Gemini)
 - Get answers with exact source and context
 
 ## Installation
