@@ -1,13 +1,16 @@
 # GenAI
-
 A simple Retrieval-Augmented Generation (RAG) API for asking questions about uploaded documents. Uses FastAPI, Google Gemini and Chroma vector database.
 
-## Features
+## ✨ Features
 - Upload multiple files (PDF, DOCX, TXT, JPG , PNG, CSV, DB)
 - Contexts are generated with overlap
 - Ask questions
 - Relevant context and question will be sent to the LLM(Gemini)
 - Get answers with exact source and context
+
+## ❌ Cons
+- Once you reload the page , the messages are gone. No way to retrieve them back.
+
 
 ## Installation
     pip install -r requirements.txt
@@ -41,6 +44,4 @@ This must be present in your environment variables.
 ### Query page
 ![Query](Screenshots/query.png)
 
-## Cons
-- Once you reload the page , the messages are gone. No way to retrieve them back.
 
