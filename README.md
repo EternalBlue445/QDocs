@@ -10,6 +10,7 @@ A simple Retrieval-Augmented Generation (RAG) API for asking questions about upl
 
 ## ❌ Cons
 - Once you reload the page , the messages are gone. No way to retrieve them back.
+- The Gemini free limit may cause a temporary intervention.
 
 
 ## Installation
