@@ -1,4 +1,4 @@
-# Document Q&A with FastAPI & Gemini
+# GenAI
 
 A simple Retrieval-Augmented Generation (RAG) API for asking questions about uploaded documents (PDF, DOCX, TXT, JPG). Uses FastAPI, Google Gemini embeddings and Chroma vector database.
 
@@ -22,6 +22,11 @@ A simple Retrieval-Augmented Generation (RAG) API for asking questions about upl
     2. ('/query') -> returns query.html
     3. ('/api/query') -> makes a POST request to the backend with user's questions and 
                         gets the response in return
+
+## Sample Folders & Files
+    Files directory contains the sample files.
+    The uploads directory stores the uploaded documents.
+    
 
 ## Screenshots
 ### Index page
