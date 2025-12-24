@@ -8,3 +8,4 @@ pandas
 pillow
 python-multipart
 numpy
+google-generativeai
