@@ -2,7 +2,7 @@
 
 A simple Retrieval-Augmented Generation (RAG) API for asking questions about uploaded documents. Uses FastAPI, Google Gemini and Chroma vector database.
 
-## ✨ Features
+## Features
 - Upload multiple files (PDF, DOCX, TXT, JPG , PNG, CSV, DB)
 - Contexts are generated with overlap
 - Ask questions
@@ -12,7 +12,7 @@ A simple Retrieval-Augmented Generation (RAG) API for asking questions about upl
 ## Installation
     pip install -r requirements.txt
 
-## 🚀 Quick Start/Run
+## Quick Start/Run
 - For development(locally): fastapi dev main.py
 
 
@@ -42,5 +42,5 @@ This must be present in your environment variables.
 ![Query](Screenshots/query.png)
 
 ## Cons
-    - Once you reload the page , the messages are gone. No way to retrieve them back.
+- Once you reload the page , the messages are gone. No way to retrieve them back.
 
