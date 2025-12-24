@@ -17,8 +17,8 @@ A simple Retrieval-Augmented Generation (RAG) API for asking questions about upl
     - Upload all the files at once at the very beginning.
     - Ask questions.
 
-## Enviroment Variables
-    os.environ['GEMINI_API_KEY']
+## Enviroment Variables(Required)
+GEMINI_API_KEY=your_gemini_api_key_here . This must be present in your env variables.
 
 ## API Documentation
     1. ('/') -> returns index.html
