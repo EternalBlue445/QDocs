@@ -1,4 +1,4 @@
-# GenAI
+# QDocs
 A simple Retrieval-Augmented Generation (RAG) API for asking questions about uploaded documents. Uses FastAPI, Google Gemini and Chroma vector database.
 
 ## ✨ Features
